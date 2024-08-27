@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="header" >
+        <img src="./assets/Logo.png" alt="Logo" class="logo" id="logo">
+        
+    </div>
+    <div class="main_container">
+        <div class="text_container">
+            <textarea id="input_text" placeholder="Ingresa el texto aquí"></textarea>
+            
+        </div>
+        <div class="sidebar">
+            <img class="sidebar_imagen" src="./assets/Muñeco.png">
+                        <h2><strong class="titulo_destaque">Ningún mensaje fue encontrado</strong></h2>
+            <p class="sidebar_texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="copy-button">Copiar</button>
+        </div>
+    </div>
+    <div class="button_container">
+        <button class="button_container_encriptar" id="encrypt-button">Encriptar</button>
+        <button class="button_container_desencriptar" id="decrypt-button">Desencriptar</button>
+    </div>
+    
+    <footer class="footer">
+        <p>© 2024 Yuri Mayerli Gutierrez Blanco. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
